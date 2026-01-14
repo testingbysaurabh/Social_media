@@ -1,6 +1,5 @@
 const { Post } = require("../Models/Posts")
 
-
 const isAuthor = async(req, res, next) => {
     try {
         const{id} = req.params
